@@ -1,0 +1,63 @@
+********************************************************************************
+*                    Wednesday, January 18, 2017 4:13:30 PM                    *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 2.0.3.30
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: D:\VuforiaTest
+Target profile directory: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: D:\VuforiaTest\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\mscorlib.dll" -r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.dll" -r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Core.dll" -r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.dll" @Temp/UnityTempFile-24afffc907b924048b9fe63f95378f75 
+Exit code: 0
+Elapsed time: 3.21 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (3 lines):
+0: Assets\Vuforia\Scripts\Utilities\VRIntegrationHelper.cs(99,17): warning CS0618: 'Camera.SetStereoProjectionMatrices(Matrix4x4, Matrix4x4)' is obsolete: 'SetStereoProjectionMatrices is deprecated. Use SetStereoProjectionMatrix(StereoscopicEye eye) instead.'
+1: Assets\Vuforia\Scripts\Utilities\VRIntegrationHelper.cs(100,17): warning CS0618: 'Camera.SetStereoProjectionMatrices(Matrix4x4, Matrix4x4)' is obsolete: 'SetStereoProjectionMatrices is deprecated. Use SetStereoProjectionMatrix(StereoscopicEye eye) instead.'
+2: Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs(20,22): warning CS0414: The field 'DefaultTrackableEventHandler.showGUI' is assigned but its value is never used
+
+- PDB to MDB conversion --------------------------------------
+
+Process: D:\VuforiaTest\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.20 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                    Wednesday, January 18, 2017 4:13:34 PM                    *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 2.0.3.30
+Platform: Windows
+Target assembly: Assembly-CSharp-Editor.dll
+Project directory: D:\VuforiaTest
+Target profile directory: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: D:\VuforiaTest\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\mscorlib.dll" -r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\System.dll" -r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\System.Core.dll" -r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\System.Xml.dll" @Temp/UnityTempFile-8e501733caab57344a26ee4f987696ee 
+Exit code: 0
+Elapsed time: 2.65 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: D:\VuforiaTest\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp-Editor.dll
+Exit code: 0
+Elapsed time: 0.15 sec
+
+- pdb2mdb.exe output (0 lines):

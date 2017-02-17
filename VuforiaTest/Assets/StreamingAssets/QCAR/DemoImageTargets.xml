@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="ScissorsPens" size="0.150000 0.203804" />
+    <ImageTarget name="Cheerio" size="0.150000 0.170500" />
+    <ImageTarget name="Diaper" size="0.150000 0.150000" />
+    <ImageTarget name="Espresso" size="0.150000 0.150505" />
+    <ImageTarget name="Headphone" size="0.150000 0.193678" />
+    <ImageTarget name="Shampoo" size="0.150000 0.180000" />
+    <ImageTarget name="Eyeshadow" size="0.150000 0.099450" />
+    <ImageTarget name="VitaminC" size="0.150000 0.150000" />
+    <ImageTarget name="Magazine" size="0.150000 0.199820" />
+    <ImageTarget name="StartupNation" size="0.150000 0.112500" />
+    <ImageTarget name="DockerInPractice" size="15.000000 18.807692" />
+    <ImageTarget name="HighTechStartup" size="0.150000 0.112500" />
+  </Tracking>
+</QCARConfig>
